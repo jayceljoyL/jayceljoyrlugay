@@ -52,3 +52,35 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(1, 17, 4);
 }
+
+
+.card-img-top{
+    width: 35% !important;
+}
+
+.card{
+    padding: 20px;
+    border: 3px solid rgb(87, 252, 11) !important;
+    transition: all ease-in .4s;
+}
+
+.card:hover{
+    border: 3px solid rgb(101, 194, 109) !important;
+    transform: scale(1.1);
+    background-color: rgb(152, 226, 158);
+    border-color: rgb(18, 160, 42);
+}
+.card:hover .card-title,
+.card-hover .card-text{
+    color: rgb(43, 255, 0);
+}
+
+section{
+    padding: 100px;
+}
+#sugpon h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: rgb(71, 119, 43);
+    margin-bottom: 30px;
+}
